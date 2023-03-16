@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Exel150323;
+import java.util.Scanner;
+/**
+ *
+ * @author exel
+ */
+public class Perpangkatan_For {
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    System.out.println("masukkan angka : ");
+    int nilai = in.nextInt();
+    System.out.println("masukkan pangkat : ");
+    int pangkat = in.nextInt();
+
+    int h = 1;
+
+    for (int i = 1; i <= pangkat;i++){
+    h = h * nilai;
+    }
+    System.out.println(nilai+ " ^ " + pangkat + " = " +h);
+     }
+}
+
